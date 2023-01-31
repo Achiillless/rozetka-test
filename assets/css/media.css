@@ -1,22 +1,36 @@
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 1200px) {
     
+    .discruption h2{
+        font-size: 17px;
+    }
 }
 
 @media only screen and (max-width: 991px) {
-    
-    .template-title{
-        font-size: 15px;
+
+    .img-fluid{
+        width: 100%;
     }
 
-    .discruption{
-        font-size: 13px;
+    .template-title h1 {
+        font-size: 25px;
+    }
+
+    .discruption h2{
+        font-size: 15px;
     }
 }
 
-@media only screen and (max-width: 1200px) {
-    
-    .template-title{
-        font-size: 23px;
-    } 
-        
+@media only screen and (max-width: 575px) {
+   
+    .template-title h1{
+        font-size: 17px;
+    }
+
+    .discruption h2{
+        font-size: 10px;
+    }
+
+    .discruption::before{
+        width: 60px;
+    }
 }
