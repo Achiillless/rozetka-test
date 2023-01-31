@@ -1,0 +1,128 @@
+:root{
+    --color-1: #000;
+}
+
+@font-face {
+    font-family: "SFProDisplay";
+    src: url(../fonts/SF-Pro-Display-Semibold.ttf) format(truetype);
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SFProDisplay" ;
+    src: url(../fonts/SF-Pro-Display-Regular.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: "SFProDisplay";
+    font-weight: 600;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-template{
+    margin-top: 60px;
+}
+
+.template-title{
+    font-size: 30px;
+    line-height: 25px;
+}
+
+.img-first{
+    width: 100%;
+}
+
+.function{
+   margin-top: 60px;
+}
+
+.function .template-title{
+    text-align: center;
+}
+
+.function-img{
+    width: 100%;
+    background-color: #F7F7F7;
+    margin-top: 140px;
+}
+
+.img-function{
+    width: 100%;
+}
+
+.waterproof{
+    margin-top: 60px;
+}
+
+.img-waterproof{
+    width: 100%;
+}
+
+.about{
+    margin-top: 60px;
+}
+
+.about-img {
+    width: 100%;
+}
+
+.img-about{
+    width: 100%;
+}
+
+.characteristics{
+    margin-top: 60px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.col{
+    width: 30%;
+    margin: auto;
+    font-family: "SFProDisplay";
+    font-weight: 400;
+}
+
+.discruption{
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.before::before{
+    display: none;
+}
+
+.discruption::before{
+    content: "";
+    width: 150px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: -50%;
+}
+
+.img-set{
+    width: 100%;
+}
